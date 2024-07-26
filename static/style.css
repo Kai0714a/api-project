@@ -1,0 +1,101 @@
+/* style.css */
+
+/* Your existing styles */
+body {
+    font-family: Inter, Arial, sans-serif;
+    background: #F7F7F7; /* Greyish background color */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #333; /* Dark gray text color */
+}
+
+main {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #FFFFFF; /* White background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333; /* Dark gray heading color */
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666; /* Medium gray label color */
+    font-size: 16px;
+}
+
+input[type="text"], select {
+    width: 80%; /* Flexible width */
+    padding: 12px; /* Breathing room */
+    margin-bottom: 20px; /* Space between inputs */
+    border: 1px solid #CCCCCC; /* Light gray border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px; /* Larger text */
+    background-color: #FFFFFF; /* White background */
+    color: #333; /* Dark gray text */
+}
+
+select {
+    appearance: none;
+    padding: 12px;
+    background-color: #FFFFFF;
+    color: #333;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #CCCCCC; /* Light gray border */
+}
+
+button[type="submit"] {
+    background-color: #337AB7; /* Blue button color */
+    color: #FFFFFF; /* White text color */
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #23527C; /* Darker blue hover color */
+}
+
+/* Progress bar and status */
+progress {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    appearance: none;
+}
+
+/* Set the color of the progress bar */
+progress::-webkit-progress-bar {
+    background-color: #CCCCCC; /* Light gray background */
+}
+
+/* Set the color of the progress value (bar) */
+progress::-webkit-progress-value {
+    background-color: #4CAF50; /* Green color */
+}
+
+#progress-status {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666; /* Medium gray text */
+}
