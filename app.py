@@ -26,7 +26,7 @@ def download_video():
     url = request.form.get('url')
     quality = request.form.get('quality', '1080p')
 
-    output_dir = r"C:\Users\Pinkesh\Desktop\downloaded_vid"  # Replace with your desired save path
+    output_dir = r"C:\Users\Desktop\downloaded_vid"  # Replace with your desired save path
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
